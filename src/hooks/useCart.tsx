@@ -79,6 +79,13 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
   const removeProduct = (productId: number) => {
     try {
+      const findIndexProduct = cart.findIndex((cart) => cart.id === productId);
+
+      if (findIndexProduct === -1) {
+        toast.error("Erro na remoção do produto");
+        return;
+      }
+
       const newCart = cart.filter((cart) => cart.id !== productId);
 
       localStorage.setItem("@RocketShoes:cart", JSON.stringify(newCart));
@@ -99,7 +106,8 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       const findProduct = cart.find((product) => product.id === productId);
 
       if (!findProduct) {
-        toast.error("O produto não foi localizado");
+        toast.error("Erro na alteração de quantidade do produto");
+        return;
       }
 
       const { data: stock } = await api.get<Stock>(`stock/${productId}`);
