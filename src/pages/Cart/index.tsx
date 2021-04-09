@@ -23,8 +23,8 @@ const Cart = (): JSX.Element => {
   const cartFormatted = cart.map((product) => {
     return {
       ...product,
-      subtotal: formatPrice(product.amount * product.price),
-      price: formatPrice(product.price),
+      subtotalFormatted: formatPrice(product.amount * product.price),
+      priceFormatted: formatPrice(product.price),
     };
   });
 
@@ -36,15 +36,23 @@ const Cart = (): JSX.Element => {
   );
 
   function handleProductIncrement(product: Product) {
-    // TODO
+    updateProductAmount({
+      productId: product.id,
+      amount: product.amount + 1,
+    });
   }
 
   function handleProductDecrement(product: Product) {
-    // TODO
+    updateProductAmount({
+      productId: product.id,
+      amount: product.amount - 1,
+    });
   }
 
   function handleRemoveProduct(productId: number) {
-    console.log(`O id para excluir é: ${productId}`);
+    if (productId) {
+      removeProduct(productId);
+    }
   }
 
   return (
@@ -68,7 +76,7 @@ const Cart = (): JSX.Element => {
                 </td>
                 <td>
                   <strong>{product.title}</strong>
-                  <span>{product.price}</span>
+                  <span>{product.priceFormatted}</span>
                 </td>
                 <td>
                   <div>
@@ -76,7 +84,7 @@ const Cart = (): JSX.Element => {
                       type="button"
                       data-testid="decrement-product"
                       disabled={product.amount <= 1}
-                      // onClick={() => handleProductDecrement(product)}
+                      onClick={() => handleProductDecrement(product)}
                     >
                       <MdRemoveCircleOutline size={20} />
                     </button>
@@ -89,14 +97,14 @@ const Cart = (): JSX.Element => {
                     <button
                       type="button"
                       data-testid="increment-product"
-                      // onClick={() => handleProductIncrement()}
+                      onClick={() => handleProductIncrement(product)}
                     >
                       <MdAddCircleOutline size={20} />
                     </button>
                   </div>
                 </td>
                 <td>
-                  <strong>{product.subtotal}</strong>
+                  <strong>{product.subtotalFormatted}</strong>
                 </td>
                 <td>
                   <button
