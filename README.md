@@ -51,7 +51,7 @@ Make with ❤️ for Bruno Magro 👋🏽 Contact:
 <div display="flex" width="100%">
   <img src="https://img.shields.io/static/v1?label=Desafio&message=Carrinho&color=7159c1&style=for-the-badge&logo=ghost"/>
   <a href="https://www.linkedin.com/in/brunohmagro/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=Meu&message=LinkedIn&color=0f5ab6&style=for-the-badge&logo=linkedin"/>
+    <img src="https://img.shields.io/static/v1?label=My&message=LinkedIn&color=0f5ab6&style=for-the-badge&logo=linkedin"/>
   </a>
   <img src="https://img.shields.io/badge/-brunohmagro@hotmail.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto:brunohmagro@hotmail.com)](mailto:brunohmagro@hotmail.com)"/>
 </div>
