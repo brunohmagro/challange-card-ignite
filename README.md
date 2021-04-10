@@ -12,6 +12,30 @@ The following technologies were used:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Yarn](https://yarnpkg.com/)
 
+<br>
+
+## :wrench: Installation and usage
+
+```bash
+# Open a terminal and copy this repository with the command
+git clone https://github.com/brunohmagro/challange-cart-ignite
+# or use the download option.
+
+# Enter the folder with 
+cd challange-cart-ignite
+
+# Install the dependencies
+yarn install
+
+# Initialize api server
+yarn server
+
+# Run the application
+yarn dev
+
+# Access http://localhost:2000 in your browser
+```
+
 ## :memo: Licence
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
