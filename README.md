@@ -37,7 +37,7 @@ yarn server
 # Run the application
 yarn dev
 
-# Access http://localhost:2000 in your browser
+# Access http://localhost:3000 in your browser
 ```
 
 ## :memo: Licence
