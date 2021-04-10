@@ -1,6 +1,10 @@
 <img align="center" src="https://github.com/FelipeBrenner/ignite-reactjs-desafios/blob/main/.github/cover-reactjs.png"/>
 
 <h1 align="center">Challange Cart from Chapter II</h1>
+<p align="center">
+  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2306b656?style=for-the-badge&color=7159c1">
+  <img alt="Solved by Bruno Magro" src="https://img.shields.io/badge/solved%20by-Bruno%20Magro-%2306b656?style=for-the-badge">
+</p>
 
 <h4 align="center">🚀  Under construction... 🚧</h4>
 
