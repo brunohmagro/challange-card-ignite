@@ -1,6 +1,6 @@
 <img align="center" src="https://github.com/FelipeBrenner/ignite-reactjs-desafios/blob/main/.github/cover-reactjs.png"/>
 
-<h1 align="center">Challange Cart from Ignite Course</h1>
+<h1 align="center">Challange Cart from Chapter II</h1>
 
 <h4 align="center">🚀  Under construction... 🚧</h4>
 
