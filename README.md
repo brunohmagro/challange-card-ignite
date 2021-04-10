@@ -21,8 +21,8 @@ The following technologies were used:
 ## :wrench: Installation and usage
 
 ```bash
-# Open a terminal and copy this repository with the command
-git clone https://github.com/brunohmagro/challange-cart-ignite
+# Open a terminal and copy this repository with the command (ssh)
+git clone git@github.com:brunohmagro/challange-cart-ignite.git
 # or use the download option.
 
 # Enter the folder with 
