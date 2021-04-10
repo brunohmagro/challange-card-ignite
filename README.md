@@ -25,7 +25,7 @@ The following technologies were used:
 git clone git@github.com:brunohmagro/challange-cart-ignite.git
 # or use the download option.
 
-# Enter the folder with 
+# Enter in the folder with 
 cd challange-cart-ignite
 
 # Install the dependencies
