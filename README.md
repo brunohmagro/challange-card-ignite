@@ -12,6 +12,12 @@ The following technologies were used:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Yarn](https://yarnpkg.com/)
 
+## :memo: Licence
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+
+<br>
+
 Make with ❤️ for Bruno Magro 👋🏽 Contact:
 
 <div display="flex" width="100%">
